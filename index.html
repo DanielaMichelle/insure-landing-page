@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <link rel="stylesheet" href="./style.css" />
+
+    <!-- Fonts -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Karla:ital,wght@0,200..800;1,200..800&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Frontend Mentor | Insure landing page</title>
+
+    <script src="./main.js" defer></script>
+  </head>
+  <body>
+    <nav class="navbar">
+      <img class="navbar__logo" src="./images/logo.svg" alt="logo Insure" />
+      <ul class="navbar__list">
+        <li><a href="#">How we work</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Account</a></li>
+        <li><button>View plans</button></li>
+      </ul>
+      <img
+        class="navbar__hamburger"
+        src="./images/icon-hamburger.svg"
+        alt="hamburger"
+      />
+      <img class="navbar__close" src="./images/icon-close.svg" alt="close" />
+    </nav>
+
+    <nav class="mobile-nav">
+      <ul class="mobile-nav__list">
+        <li><a href="#">How we work</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Account</a></li>
+        <li><button>View plans</button></li>
+      </ul>
+    </nav>
+
+    <main class="insure-landing-main">
+      <!-- bg images -->
+      <picture class="bd-img__left">
+        <source
+          srcset="./images/bg-pattern-intro-left-desktop.svg"
+          media="(min-width: 480px)"
+        />
+        <img
+          src="./images/bg-pattern-intro-left-mobile.svg"
+          alt="interactive iamge"
+        />
+      </picture>
+
+      <picture class="bd-img__right">
+        <source
+          srcset="./images/bg-pattern-intro-right-desktop.svg"
+          media="(min-width: 480px)"
+        />
+        <img
+          src="./images/bg-pattern-intro-right-mobile.svg"
+          alt="interactive iamge"
+        />
+      </picture>
+
+      <!-- hero image mobile -->
+      <img
+        class="hero-img-mobile"
+        src="./images/image-intro-mobile.jpg"
+        alt="hero mobile image"
+      />
+
+      <!-- hero section -->
+      <section class="insure-landing__hero">
+        <div class="insure-landing__hero-text">
+          <h1>Humanizing your insurance.</h1>
+          <p>
+            Get your life insurance coverage easier and faster. We blend our
+            expertise and technology to help you find the plan that’s right for
+            you. Ensure you and your loved ones are protected.
+          </p>
+          <button>View plans</button>
+        </div>
+        <figure class="insure-landing__hero-img">
+          <img
+            src="./images/image-intro-desktop.jpg"
+            alt=" hero desktop image"
+          />
+        </figure>
+      </section>
+
+      <!-- were different section -->
+      <section class="insure-landing__were-different">
+        <h2>We’re different</h2>
+        <div class="insure-landing__were-different__cards">
+          <div class="were-different--card">
+            <img src="./images/icon-snappy-process.svg" alt="snappy process"/>
+            <h3>Snappy Process</h3>
+            <p>Our application process can be completed in minutes, not hours. Don’t get stuck filling in tedious forms.</p>
+          </div>
+          <div class="were-different--card">
+            <img src="./images/icon-affordable-prices.svg" alt="affordable prices"/>
+            <h3>Affordable Prices</h3>
+            <p>We don’t want you worrying about high monthly costs. Our prices may be low, but we still offer the best coverage possible.</p>
+          </div>
+          <div class="were-different--card">
+            <img src="./images/icon-people-first.svg" alt="people first"/>
+            <h3>People First</h3>
+            <p>Our plans aren’t full of conditions and clauses to prevent payouts. We make sure you’re covered when you need it.</p>
+        </div>
+      </section>
+
+      <!-- how we work section -->
+      <section class="insure-landing__how-we-work">
+        <h2>Find out more about how we work</h2>
+        <button>How we work</button>
+      </section>
+    </main>
+
+    <!-- footer -->
+    <footer>
+      <div class="footer__top">
+        <img src="./images/logo.svg" alt="logo">
+        <div class="social-icons">
+          <img src="./images/icon-facebook.svg" alt="facebook">
+          <img src="./images/icon-twitter.svg" alt="twitter">
+          <img src="./images/icon-pinterest.svg" alt="pinterest">
+          <img src="./images/icon-instagram.svg" alt="instagram">
+        </div>
+      </div>
+
+      <div class="footer__bottom">
+        <ul class="footer__bottom__list">
+          <span>Our company</span>
+          <li><a href="#">How we work</a></li>
+          <li><a href="#">Why Insure?</a></li>
+          <li><a href="#">View plans</a></li>
+          <li><a href="#">Reviews</a></li>
+        </ul>
+
+        <ul class="footer__bottom__list">
+          <span>Help me</span>
+          <li><a href="#">FAQ</a></li>
+          <li><a href="#">Terms of use</a></li>
+          <li><a href="#">Privacy policy</a></li>
+          <li><a href="#">Cookies</a></li>
+        </ul>
+
+        <ul class="footer__bottom__list">
+          <span>Contact</span>
+          <li><a href="#">Sales</a></li>
+          <li><a href="#">Support</a></li>
+          <li><a href="#">Live chat</a></li>
+        </ul>
+
+
+        <ul class="footer__bottom__list">
+          <span>Others</span>
+          <li><a href="#">Careers</a></li>
+          <li><a href="#">Press</a></li>
+          <li><a href="#">Licenses</a></li>
+        </ul>
+
+      </div>
+    </footer>
+  </body>
+</html>
