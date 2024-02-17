@@ -16,8 +16,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL:
-- Live Site URL:
+- Solution URL: https://github.com/DanielaMichelle/insure-landing-page
+- Live Site URL: https://danielamichelle.github.io/insure-landing-page/
 
 ### Built with
 
