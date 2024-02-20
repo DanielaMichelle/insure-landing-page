@@ -9,11 +9,6 @@ Users should be able to:
 - View the optimal layout for the site depending on their device's screen size
 - See hover states for all interactive elements on the page
 
-### Screenshotls
-
-![](./screenshot/desktop.png)
-![](./screenshot/mobile.png)
-
 ### Links
 
 - Solution URL: https://github.com/DanielaMichelle/insure-landing-page
@@ -24,3 +19,8 @@ Users should be able to:
 - Semantic HTML5 markup
 - CSS custom propertiess
 - JavaScript
+
+### Screenshotls
+
+![](./screenshot/desktop.png)
+![](./screenshot/mobile.png)
